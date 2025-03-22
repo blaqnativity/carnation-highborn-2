@@ -1,4 +1,5 @@
-import Navbar from "./components/Navbar"; // Import the Navbar component
+import NavMenu from "./components/NavMenu";
+// Import the Navbar component
 import Container from "react-bootstrap/Container"; // Import Bootstrap Container
 import Card from "react-bootstrap/Card";
 import ProductCard from "./components/ProductCard";
@@ -9,7 +10,7 @@ const App = () => {
   return (
     <>
       {/* Navbar Component */}
-      <Navbar />
+      <NavMenu />
 
       {/* Container to hold product cards */}
       <Container className="mt-5 d-flex flex-wrap gap-4 justify-content-center">
